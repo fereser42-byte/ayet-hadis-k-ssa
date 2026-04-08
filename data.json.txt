@@ -1,0 +1,44 @@
+[
+  {
+    "tarih": "2026-04-07",
+    "ayet": "Şüphesiz Allah sabredenlerle beraberdir.",
+    "hadis": "Ameller niyetlere göredir.",
+    "kissa": "Hz. Ömer adaletiyle tanınırdı."
+  },
+  {
+    "tarih": "2026-04-08",
+    "ayet": "Namazı dosdoğru kılın.",
+    "hadis": "Kolaylaştırın zorlaştırmayın.",
+    "kissa": "Bir adam köpeğe su verdi ve cenneti kazandı."
+  },
+  {
+    "tarih": "2026-04-09",
+    "ayet": "Allah her şeyi bilendir.",
+    "hadis": "Güler yüz sadakadır.",
+    "kissa": "Bir sahabe annesine hizmet ederek cenneti kazandı."
+  },
+  {
+    "tarih": "2026-04-10",
+    "ayet": "Şükrederseniz artırırım.",
+    "hadis": "Temizlik imandandır.",
+    "kissa": "Bir adam borcunu affederek Allah’ın rahmetine kavuştu."
+  },
+  {
+    "tarih": "2026-04-11",
+    "ayet": "Sabırla yardım isteyin.",
+    "hadis": "Merhamet etmeyene merhamet edilmez.",
+    "kissa": "Bir kadın kediyi hapsettiği için cezalandırıldı."
+  },
+  {
+    "tarih": "2026-04-12",
+    "ayet": "Allah tövbeleri kabul eder.",
+    "hadis": "Din nasihattir.",
+    "kissa": "Bir adam 100 kişiyi öldürdü ama tövbe ederek affedildi."
+  },
+  {
+    "tarih": "2026-04-13",
+    "ayet": "Zorlukla beraber kolaylık vardır.",
+    "hadis": "En hayırlınız ahlakı en güzel olandır.",
+    "kissa": "Peygamberimiz kendisine kötülük edene iyilikle karşılık verdi."
+  }
+]

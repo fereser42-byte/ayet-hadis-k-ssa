@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>Günün Mesajı</title>
+<style>
+body { font-family: Arial; text-align: center; padding: 20px; }
+.kutu { border:1px solid #ccc; padding:15px; margin:10px; border-radius:10px; }
+a { display:block; margin-top:20px; }
+</style>
+</head>
+<body>
+
+<h1>📖 Günün Mesajı</h1>
+
+<div class="kutu">
+<h2>Ayet</h2>
+<p id="ayet"></p>
+</div>
+
+<div class="kutu">
+<h2>Hadis</h2>
+<p id="hadis"></p>
+</div>
+
+<div class="kutu">
+<h2>Kıssa</h2>
+<p id="kissa"></p>
+</div>
+
+<a href="arsiv.html">📚 Arşive Git</a>
+
+<script>
+fetch("data.json")
+.then(res => res.json())
+.then(data => {
+
+let bugun = new Date().toISOString().split("T")[0];
+let veri = data.find(x => x.tarih === bugun);
+
+if(veri){
+document.getElementById("ayet").innerText = veri.ayet;
+document.getElementById("hadis").innerText = veri.hadis;
+document.getElementById("kissa").innerText = veri.kissa;
+}else{
+document.body.innerHTML += "<p>Bugün için içerik yok</p>";
+}
+
+});
+</script>
+
+</body>
+</html>
